@@ -42,8 +42,7 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
-              "extractCss": true,
+              "sourceMap": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -78,5 +77,8 @@
         }
       }
     }},
-  "defaultProject": "securing-angular-client"
+  "defaultProject": "securing-angular-client",
+  "cli": {
+    "analytics": false
+  }
 }
